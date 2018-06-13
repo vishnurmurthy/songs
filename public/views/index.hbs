@@ -1,0 +1,116 @@
+<html id = "html">
+<head>
+	<title>Songs</title>
+	    <!-- Compiled and minified CSS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" async></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <style>
+		table, th, td {
+		    border: 1px solid black;
+		    align-items: center;
+		}
+		</style>
+</head>
+<body class="center">
+    <h1 class="header center teal-text text-lighten-2">Artist Analyzer</h1>
+    <div>
+        <p id = "id" name="username">Hello, {{ion_username}}!</p>
+        <p>Want to learn more about your favorite artist? Want to know more about their albums, 
+        the songs they made, and their lyrics? </p><p>Want to connect with others with the 
+        same interests as you? This Artist Analyzer will give you all of that!</p><p>
+        Just enter an artist you want to learn more about and we'll get you the info!</p>
+        <p>Information includes the album, the tracklist per album, and the intensity (profanity) for the album</p>
+        <p>We plan to roll out more features in the future</p>
+        <p>You can also rate artists and find the school's average rating!</p>
+        <form id="get_artist">
+          <span>Enter artist name: </span>
+          
+          <input type="text" id="inp_menu_item" name="menu_item">
+        </form>
+    
+        <!--THE BUTTON. WHEN PRESSED, WILL CALL placeOrder()-->
+        <button type="button" onclick="getArtist()" class = "btn waves-effect waves-light">Get Info!</button>
+    </div>
+    <p name="artistName" class="bold">{{artist}}</p>
+    <p>{{interestedUsers}}</p>
+    <p>School's average rating: {{rating}}</p>
+    <table id="table" style="width:100%">
+        <thead> 
+            <th>Album</th> 
+            <th>Track List</th> 
+            <th>Intensity</th> 
+        </thead> 
+        <tbody> 
+            {{#albums}} 
+            <tr> 
+                <td>{{name}}</td> 
+                <td>{{trackList}}</td> 
+                <td>{{intensity}}</td> 
+            </tr> 
+            {{/albums}} 
+        </tbody> 
+    </table>
+    
+    <br><br>
+    <div>
+        <p id = "id" name="username">Insert your own rating for an artist!</p>
+
+        <form id="get_rating">
+          <span>Enter artist name: </span>
+          <input type="text" name="new_menu_item">
+          <span>Enter rating: </span>
+          <input type="float" name="second_item">
+        </form>
+    
+        <!--THE BUTTON. WHEN PRESSED, WILL CALL placeOrder()-->
+        <button type="button" onclick="insertRating()" class = "btn waves-effect waves-light">Insert rating!</button>
+        <p id="thanks"></p>    
+    </div>
+    
+    
+    <script type="text/javascript">
+    // FUNCTION FOR RESPONDING TO BUTTON PRESS
+    // -- Take the order from the user
+        function getArtist() {
+            // SEND THE ORDER TO THE KITCHEN
+        	 $.ajax({
+                    url: "artist",                      // goes to https://user.tjhsst.edu/pckosek/kitchen
+                    type: "get",                         // use a 'get' type request
+                    data:  $('#get_artist').serialize(), //serialize form and pass to server
+                    success: function(response) {
+                        r = document.getElementById("html");
+                        console.log(response);
+                        r.innerHTML = response;
+                    },
+                    error: function (stat, err) {
+                        r = document.getElementById("html");
+                        r.innerHTML = 'something went wrong!';
+                    }       
+                });
+            }
+        function insertRating() {
+            // SEND THE ORDER TO THE KITCHEN
+            console.log("insertRating ehre");
+        	 $.ajax({
+                    url: "rating",                      // goes to https://user.tjhsst.edu/pckosek/kitchen
+                    type: "get",                         // use a 'get' type request
+                    data:  $('#get_rating').serialize(), //serialize form and pass to server
+                    success: function(response) {
+                        r = document.getElementById("thanks");
+                        console.log(response);
+                        r.innerHTML = response;
+                        
+                    },
+                    error: function (stat, err) {
+                    }       
+                });
+            }
+                
+    </script>
+</body>
+</html>

@@ -1,0 +1,1790 @@
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: this._callback.apply is not a function
+    at Query.Sequence.end (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: this._callback.apply is not a function
+    at Query.Sequence.end (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'menu_item' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:188:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'menu_item' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:188:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'rating' in 'field list'
+    at Query.Sequence._packetToError (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/web/projects/songs/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/web/projects/songs/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/web/projects/songs/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/web/projects/songs/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+    --------------------
+    at Pool.query (/web/projects/songs/node_modules/mysql/lib/Pool.js:199:23)
+    at /web/projects/songs/public/server.js:238:10
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at /web/projects/songs/public/server.js:232:41
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at /web/projects/songs/public/server.js:232:41
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at /web/projects/songs/public/server.js:232:41
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'toLowerCase' of undefined
+    at /web/projects/songs/public/server.js:232:41
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: second_item is not defined
+    at /web/projects/songs/public/server.js:238:16
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:164:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:164:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:165:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token { in JSON at position 3799
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token { in JSON at position 114
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token { in JSON at position 114
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token { in JSON at position 114
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token { in JSON at position 114
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token a in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 13
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:166:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:167:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:167:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:166:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:166:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:166:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:167:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:167:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+/web/projects/songs/public/server.js:17
+app.use('/python', exppress.static(path.join(__dirname, 'python')));
+                   ^
+
+ReferenceError: exppress is not defined
+    at Object.<anonymous> (/web/projects/songs/public/server.js:17:20)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+/web/projects/songs/public/server.js:17
+app.use('/python', exppress.static(path.join(__dirname, 'python')));
+                   ^
+
+ReferenceError: exppress is not defined
+    at Object.<anonymous> (/web/projects/songs/public/server.js:17:20)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+/web/projects/songs/public/server.js:17
+app.use('/python', exppress.static(path.join(__dirname, 'python')));
+                   ^
+
+ReferenceError: exppress is not defined
+    at Object.<anonymous> (/web/projects/songs/public/server.js:17:20)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+/web/projects/songs/public/server.js:17
+app.use('/python', exppress.static(path.join(__dirname, 'python')));
+                   ^
+
+ReferenceError: exppress is not defined
+    at Object.<anonymous> (/web/projects/songs/public/server.js:17:20)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:171:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: type is not defined
+    at /web/projects/songs/public/server.js:172:31
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:173:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token d in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
+SyntaxError: Unexpected token ' in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at /web/projects/songs/public/server.js:176:21
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/web/projects/songs/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/web/projects/songs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at _cookieSession (/web/projects/songs/node_modules/cookie-session/index.js:129:5)
+    at Layer.handle [as handle_request] (/web/projects/songs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/web/projects/songs/node_modules/express/lib/router/index.js:317:13)
+    at /web/projects/songs/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/web/projects/songs/node_modules/express/lib/router/index.js:335:12)
+    at next (/web/projects/songs/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/web/projects/songs/node_modules/body-parser/lib/types/json.js:109:7)
