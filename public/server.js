@@ -156,8 +156,7 @@ app.get('/artist', function(req, res){
     // there exists req.query.menu_item because there is an input named
     //    'menu_item' in the form
     console.log("artist");
-    var menu_item = req.query.menu_item//.toLowerCase();
-    
+    var menu_item = req.query.menu_item.trim();    
     
     strarr = menu_item.split(" ")
     strarrnew = []
